@@ -100,14 +100,16 @@ export const Dashboard: React.FC = () => {
     ];
 
     return (
-        <>
+        <div style={{ border: "5px solid #ccc", borderRadius: "5px", padding: "20px" }}>
             <Stats
                 dailyRevenue={dailyRevenue}
                 dailyOrders={dailyOrders}
                 newCustomers={newCustomers}
+               
             />
             <TabView tabs={tabs} />
             <RecentSales />
-        </>
+            </div>
+        
     );
 };
