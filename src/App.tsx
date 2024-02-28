@@ -37,7 +37,7 @@ function App() {
             <RefineKbarProvider>
                 <Refine
                     dataProvider={dataProvider(
-                        "https://api.finefoods.refine.dev",
+                        "https://json-server-67lf.onrender.com",
                     )}
                     routerProvider={routerBindings}
                     resources={[
